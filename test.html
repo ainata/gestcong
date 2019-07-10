@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+
+<style type="text/css" title="currentStyle">
+	@import "Ajax-tables/media/css/demo_page.css";
+	@import "Ajax-tables/media/css/demo_table.css";
+</style>
+<script type="text/javascript" language="javascript" src="Ajax-tables/media/js/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="Ajax-tables/media/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+		$('.example').dataTable();
+	} );
+</script>
+
+</head>
+
+<body>
+                    <table cellpadding="0" cellspacing="0" border="0" class="display example"" id="example" style="font-size:12px">
+                        <thead>
+                            <tr  bgcolor="#CCCCCC">
+                            	<th width="10%">Type</th>
+                                <th width="10%">Products</th>
+                                <th width="10%">Name</th>
+                                <th width="10%">Version</th>
+                                <th width="25%">URL Read me</th>
+                                <th width="25%">URL Download</th>
+ 								<th width="5%">
+								UP								</th>
+								<th width="5%">
+								DEL
+								</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                              <tr   height="35">
+                                <td width="10%">1</td>
+                            	<td width="10%">2</td>
+                            	<td width="10%">3</td>
+                            	<td width="10%">4</td>
+                            	<td width="25%">5</td>
+                            	<td width="25%">6</td>
+                              	<td width="5%">
+							   <input name="radio_update_patch" type="radio" value="7" />
+							   	</td>
+								<td width="5%">
+                               <input name="radio_delete_patch" type="radio" value="8" />
+								</td>
+                            </tr>
+                              <tr   height="35">
+                                <td width="10%">a</td>
+                            	<td width="10%">b</td>
+                            	<td width="10%">c</td>
+                            	<td width="10%">d</td>
+                            	<td width="25%">e</td>
+                            	<td width="25%">f</td>
+                              	<td width="5%">
+							   <input name="radio_update_patch" type="radio" value="G" />
+							   	</td>
+								<td width="5%">
+                               <input name="radio_delete_patch" type="radio" value="H" />
+								</td>
+                            </tr>
+                              <tr   height="35">
+                                <td width="10%">rubrique</td>
+                            	<td width="10%">article</td>
+                            	<td width="10%">Comentaire</td>
+                            	<td width="10%">Actualités</td>
+                            	<td width="25%">menu</td>
+                            	<td width="25%">fragment des pastilles</td>
+                              	<td width="5%">
+							   <input name="radio_update_patch" type="radio" value="Radio" />
+							   	</td>
+								<td width="5%">
+                               <input name="radio_delete_patch" type="radio" value="Cassette" />
+								</td>
+                            </tr>
+                              <tr   height="35">
+                                <td width="10%">textuelle</td>
+                            	<td width="10%">champs</td>
+                            	<td width="10%">zone de liste</td>
+                            	<td width="10%">zone de texte</td>
+                            	<td width="25%">menu</td>
+                            	<td width="25%">menu déroulant</td>
+                              	<td width="5%">
+							   <input name="radio_update_patch" type="radio" value="Radio" />
+							   	</td>
+								<td width="5%">
+                               <input name="radio_delete_patch" type="radio" value="Cassette" />
+								</td>
+                            </tr>
+                         </tbody>
+                        <tfoot>
+                            <tr bgcolor="#CCCCCC" align="center"  >
+                            	<th width="10%">Type</th>
+                                <th width="10%">Products</th>
+                                <th width="10%">Name</th>
+                                <th width="10%">Version</th>
+                                <th width="25%">URL Read me</th>
+                                <th width="25%">URL Download</th>
+ 								<th width="5%" class="DefaultStyleButton">
+								UP								</th>
+								<th width="5%" class="DefaultStyleButtonRed">
+								DEL
+								</th>
+                            </tr>
+                        </tfoot>
+                        </table>
+</body>
+</html>

@@ -1,0 +1,11 @@
+14/12/05 16:56:00 : Socket Error # 11003<EOL>
+14/12/05 16:59:26 : Socket Error # 11003<EOL>
+14/12/05 17:06:15 : Connection Closed Gracefully.
+14/12/05 17:07:24 : Connection Closed Gracefully.
+14/12/05 17:23:43 : Message is missing recipient's address
+14/12/05 17:24:40 : Connection Closed Gracefully.
+14/12/05 17:25:06 : Connection Closed Gracefully.
+14/12/05 17:34:53 : Connection Closed Gracefully.
+14/12/05 17:37:42 : Connection Closed Gracefully.
+14/12/05 17:42:24 : Connection Closed Gracefully.
+14/12/08 22:22:07 : Cannot connect to SMTP server 74.125.195.108 (74.125.195.108:25), NB connect error 1460<EOL>
